@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_medication"
+            android:icon="@drawable/pill"
+            android:title="Medication" />
+        <item
+            android:id="@+id/nav_localhealth"
+            android:icon="@drawable/ic_local_pharmacy_black_24dp"
+            android:title="Local Health Care" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Utilities">
+        <menu >
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+
+        </menu>
+    </item>
+
+</menu>
